@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKY MOOD</title>
+    <link rel=stylesheet href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <main>
+        <section id="main">
+        <div id="weather-container">
+        <h1>Sky Mood 🌤️</h1>    
+            <div id="weather-search">
+                <input id="search" type="text" placeholder="find out the weather mood for your city...">
+                <input id="button" type="submit" onclick="fetchweather()" value="search">
+            </div>
+        </div>    
+            <div id="weather-data" style="display: none;"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
